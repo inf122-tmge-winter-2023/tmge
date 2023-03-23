@@ -6,16 +6,9 @@
 
 import click
 
-from tilematch_tools import GameEngine
-from columns_widget import ColumnsGameFactory
+from . import TMGE
 
 @click.command()
 def tmge():
     """Entry point to tmge"""
-    ge = GameEngine(
-            [
-                ColumnsGameFactory.create_game(),
-                ColumnsGameFactory.create_game()
-                ]
-    )
-    ge.run()
+    TMGE().run()
