@@ -2,3 +2,4 @@ click
 python-dotenv
 tilematch_tools @ git+https://github.com/inf122-tmge-winter-2023/tile-matching-tools
 columns_widget @ git+https://github.com/inf122-tmge-winter-2023/columns-widget
+candy_crush_widget @ git+https://github.com/inf122-tmge-winter-2023/candy-crush-widget
