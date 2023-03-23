@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tilematch_env"
+version = "0.0.1"
+description = "An environment supporting multiplayer tile matching games"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+tmge = "tilematch_env.cli:tmge"
