@@ -6,7 +6,11 @@
 
 import click
 
+from tilematch_tools import GameEngine
+from columns_widget.cli import columns_init
+
 @click.command()
 def tmge():
     """Entry point to tmge"""
-    click.echo('Hello World!')
+    ge = GameEngine([columns_init(), columns_init()])
+    ge.run()
