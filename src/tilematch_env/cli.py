@@ -6,7 +6,9 @@
 
 import click
 
+from . import TMGE
+
 @click.command()
 def tmge():
     """Entry point to tmge"""
-    click.echo('Hello World!')
+    TMGE().run()
